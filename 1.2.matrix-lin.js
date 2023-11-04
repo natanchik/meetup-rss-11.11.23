@@ -22,9 +22,12 @@ function findNumber(matrix, k) {
 // O(m + n)
 
 const matrix = [
-  [1, 2, 3],
-  [4, 5, 6],
-  [7, 8, 9],
+  [1, 4, 7, 8, 12],
+  [3, 6, 9, 10, 14],
+  [5, 11, 13, 16, 21],
+  [10, 15, 18, 20, 26],
+  [17, 22, 23, 27, 31],
 ];
-console.log(findNumber(matrix, 5));
-console.log(findNumber(matrix, 10));
+
+console.log(findNumber(matrix, 13));
+console.log(findNumber(matrix, 90));
